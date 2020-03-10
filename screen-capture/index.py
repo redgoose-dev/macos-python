@@ -20,6 +20,14 @@ if useDate:
     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     print('Update useDate')
 
+# use shadow
+useShadow = input('> Using shadow window (Y/n): ')
+useShadow = 'TRUE' if useShadow.lower() == 'n' else 'FALSE'
+if useShadow:
+    cmd = ['defaults', 'write', 'com.apple.screencapture', 'disable-shadow', '-bool', useShadow]
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print('Update useShadow')
+
 # update system
 os.system('killall SystemUIServer')
 

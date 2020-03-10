@@ -9,17 +9,20 @@
 
 ```
 python3 index.py
-> Please input filename: redgoose-screen
+> Please input filename:
 Rename screen capture
 > Using dates in filename (Y/n): 
 Update useDate
+> Using shadow window (Y/n): 
+Update useShadow
 Good bye
 ```
 
-두가지 질문이 있으며 입력하면 그대로 적용됩니다.
+다음과 같이 질문이 있으며 입력하면 그대로 적용됩니다.
 
 - `Please input filename`: 저장되는 파일이름을 입력합니다.
-- `Using dates in filename (Y/n)`: 저장되는 파일이름에서 날짜를 사용합니다.
+- `Using dates in filename`: 저장되는 파일이름에서 날짜를 사용합니다.
+- `Using shadow window`: 창 캡쳐를 할때 그림자를 사용할지에 대한 여부
 
 
 ## 참고할만한 내용들..
