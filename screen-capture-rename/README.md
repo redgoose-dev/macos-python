@@ -1,4 +1,4 @@
-# Rename screen capture filename
+# Screen capture rename
 
 스크린 캡쳐하고 저장되는 파일 이름에 관한 스크립트입니다.
 
